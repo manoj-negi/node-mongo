@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Blogging",
+    "dateExported": "2023-03-17T05:38:18.496Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6f5f3cb0-cc76-47f0-9b59-d60b04049809",
+            "colId": "82a95a07-ada5-4c32-aec5-98e6468dfaf1",
+            "containerId": "",
+            "name": "createPost",
+            "url": "localhost:4800/api/v1/post/create",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-17T04:47:01.561Z",
+            "modified": "2023-03-17T05:22:31.084Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"Test 004\",\n  \"content\":\"dummy content 4\",\n  \"author\":\"manoj negi\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "79ffe2f5-21e3-4cef-a831-d8353e68a08c",
+            "colId": "82a95a07-ada5-4c32-aec5-98e6468dfaf1",
+            "containerId": "",
+            "name": "listPosts",
+            "url": "localhost:4800/api/v1/post/list",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-03-17T04:56:35.229Z",
+            "modified": "2023-03-17T04:57:09.466Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f6ef916d-fd84-40e2-8103-8f74ca86417f",
+            "colId": "82a95a07-ada5-4c32-aec5-98e6468dfaf1",
+            "containerId": "",
+            "name": "getPost",
+            "url": "localhost:4800/api/v1/post/6413f2452449ec7171328855",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-17T04:58:48.609Z",
+            "modified": "2023-03-17T05:22:43.934Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dd3b156e-6d32-4263-886a-a811803d7b56",
+            "colId": "82a95a07-ada5-4c32-aec5-98e6468dfaf1",
+            "containerId": "",
+            "name": "updatePost",
+            "url": "localhost:4800/api/v1/update/post/6413f3d939c3258977ed504f",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-03-17T05:12:26.600Z",
+            "modified": "2023-03-17T05:21:21.248Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\":\"updated title\",\n  \"content\":\"updated content by me\",\n  \"author\":\"manoj negi\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8017bbbc-4f74-42e5-883b-2175d1df644f",
+            "colId": "82a95a07-ada5-4c32-aec5-98e6468dfaf1",
+            "containerId": "",
+            "name": "deletePost",
+            "url": "localhost:4800/api/v1/delete/post/6413f3d939c3258977ed504f",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-03-17T05:17:43.762Z",
+            "modified": "2023-03-17T05:21:39.905Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
